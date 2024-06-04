@@ -1,0 +1,3 @@
+0) NUMBER ALL FILES
+  //Add Prefix numbers to the names of all files in the currently selected folder:
+  $i=0;Get-ChildItem | Sort-Object | ForEach-Object{ $i++; Rename-Item -Path $_.FullName -NewName ($i.ToString("000")+"-"+($_.Name -replace '^[0-9]{3}-','') ) }
