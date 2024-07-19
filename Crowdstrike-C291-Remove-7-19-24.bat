@@ -1,3 +1,5 @@
+::Run as admin
+::Close CMD window within 20 seconds to stop reboot
 cls
 @echo off
 title C-00000291*.sys Removal
