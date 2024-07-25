@@ -5,7 +5,7 @@
 #-This can create complications with several features.
 #-This directory name mismatch produces errors when attempting to update CmdLets.
 #   How to use this script:
-#-Run from Admin Windows CMD window:
+#-Run from a Microsoft Windows Admin CMD window:
 #C:\WINDOWS\system32> powershell.exe -ExecutionPolicy Bypass -File <yourFilePath>\AutoFixPS51DirName.ps1
 Write-Host "Running Auto-fix for PowerShell 5.1 Directory Name Error"
 cmd /c ren "C:\Program Files\WindowsPowerShell\Modules\PSReadline" PSReadLine
