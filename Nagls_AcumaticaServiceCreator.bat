@@ -13,7 +13,7 @@ sc.exe create Nagls_AcumaticaHubAutoStart binPath="C:\Program Files\Acumatica ER
 ::  0) Find the service you want to redirect in [HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services]
 ::  1) Locate the ImagePath subkey and change that value.
 ::
-::C)  Edit Registry with PowerShell - everything between quotes minus the colons on one line.
+::C)  Edit Registry with PowerShell - everything between quotes, minus the colons, on one line.
 ::"
 ::Set-ItemProperty -Path "HKLM:\System\CurrentControlSet\Services\My Service" `
 ::    -Name ImagePath -Value "C:\Program Files (x86)\My Service\DeviceHub.exe"
