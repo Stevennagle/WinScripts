@@ -6,7 +6,7 @@ sc.exe create Nagls_AcumaticaHubAutoStart binPath="C:\Program Files\Acumatica ER
 ::
 ::Alternate Add or Edit options: 
 ::
-::A)  Add a shortcut to DeviceHub.exe location to:
+::A)  Add a shortcut for DeviceHub.exe location to:
 :: C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 ::
 ::B)  Edit Registry directly
